@@ -11,3 +11,41 @@
     vertical-align: top;
     margin-left: 0px; 
   }
+
+  .custom-navbar {
+    background: linear-gradient(135deg, #8e2de2, #4a00e0);
+    color: white;
+    height: 70px;
+    border-radius: 0 0 20px 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .custom-navbar .navbar-brand {
+    font-weight: bold;
+    font-size: 26px;
+    color: white;
+  }
+  
+  .custom-navbar .nav-link {
+    color: white;
+    font-size: 18px;
+    margin-left: 20px;
+    position: relative;
+  }
+  
+  .custom-navbar .nav-link:hover {
+    color: #ffd700; /* طلایی خوشگل */
+    transition: color 0.3s;
+  }
+  
+  /* شمارنده آیتم‌های سبد خرید */
+  .cart-items-count {
+    background-color: red;
+    color: white;
+    font-size: 12px;
+    border-radius: 50%;
+    padding: 2px 6px;
+    position: absolute;
+    top: -8px;
+    right: -10px;
+  }

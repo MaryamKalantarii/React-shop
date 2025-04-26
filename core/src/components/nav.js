@@ -10,7 +10,7 @@ const Nav = ()=>{
     return prev + current.count
   },0)
     return(
-        <div className="navbar navbar-dark bg-dark navbar-expand-lg">
+        <div className="navbar custom-navbar navbar-expand-lg">
       <div className="container">
         <a className="navbar-brand">Maryam</a>
         <ul className="navbar-nav">
